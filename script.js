@@ -8,14 +8,14 @@ document.getElementById('khodamForm').addEventListener('submit', function(event)
 });
 
 const khodams = [
-    {name: 'Khodam Jin', image: 'assets/jin.jpeg'},
-    {name: 'Khodam Malaikat', image: 'assets/malaikat.jpeg'},
-    {name: 'Khodam Raja Macan', image: 'assets/macan.jpeg'},
-    {name: 'Khodam Harimau Putih', image: 'assets/harimauputih.jpeg'},
-    {name: 'Khodam Buaya Putih', image: 'assets/buaya.jpeg'},
-    {name: 'Khodam Ular Naga', image: 'assets/ularnaga.jpg'},
-    {name: 'Khodam Nyi Roro Kidul', image: 'assets/roro.jpeg'},
-    {name: 'Khodam Dewa Zeus', image: 'assets/zeus.jpeg'}
+    {name: 'Khodam Jin', image: '/jin.jpeg'},
+    {name: 'Khodam Malaikat', image: '/malaikat.jpeg'},
+    {name: 'Khodam Raja Macan', image: '/macan.jpeg'},
+    {name: 'Khodam Harimau Putih', image: '/harimauputih.jpeg'},
+    {name: 'Khodam Buaya Putih', image: '/buaya.jpeg'},
+    {name: 'Khodam Ular Naga', image: '/ularnaga.jpg'},
+    {name: 'Khodam Nyi Roro Kidul', image: '/roro.jpeg'},
+    {name: 'Khodam Dewa Zeus', image: '/zeus.jpeg'}
 ];
 
 // Function to hash the name and map it to an index
